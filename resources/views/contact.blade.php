@@ -2,13 +2,6 @@
 @section('title','Contact us')
 
 @section('content')
-@if(session()->has('message'))
-<div class="alert alert-success alert-one " id="alert">
-    {{ session()->get('message') }}
-
-    <button type="button" class="btn-close"  aria-label="Close" ></button>
-</div>
-@endif
     <main>
         <section class="contact-sec padding-top padding-bottom">
             <div class="container">
