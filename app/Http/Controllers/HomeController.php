@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
 {
@@ -17,5 +18,16 @@ class HomeController extends Controller
         //     $message->from('fantasybattleofficial@gmail.com','Fantasybattle');
         //  });
         return redirect()->back()->with('message','Item created successfully!');
+    }
+
+    public function apkDownlaod(){
+            $appName='fantasybattle_01.apk';
+            $filename = public_path('fantasybattle_01.apk');
+
+            Storage::disk('local')->put($appName, file_get_contents($filename));
+            $path = Storage::path($appName);
+            //$this->downloadapk($path);
+            return redirect()->back();
+            //return response()->download($path);
     }
 }

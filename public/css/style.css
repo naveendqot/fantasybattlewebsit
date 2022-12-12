@@ -15,6 +15,10 @@ body {
   color: #000 !important;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 .fixed {
   position: fixed !important;
   top: 0;

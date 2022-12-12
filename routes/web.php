@@ -22,6 +22,7 @@ Route::get('/', function () {
 Route::get('/about-us', function () {return view('about_us');});
 Route::get('/how-to-play', function () {return view('how_to_play');});
 Route::get('/terms-condition', function () {return view('terms_condition');});
+Route::get('/apk-download', [HomeController::class,'apkDownlaod']);
 Route::get('/contact', function () {return view('contact');});
 Route::post('/contact', [HomeController::class,'sendmail']);
 
