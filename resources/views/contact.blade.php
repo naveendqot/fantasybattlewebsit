@@ -3,7 +3,7 @@
 
 @section('content')
     <main>
-        <section class="contact-sec padding-top padding-bottom">
+        <section class="innerpages contact-sec padding-top padding-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">

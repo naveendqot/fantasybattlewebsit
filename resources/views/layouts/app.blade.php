@@ -19,10 +19,13 @@
     <div id="app">
         @include('header')
         @yield('content')
+        @include('footer')
+
     </div>
 
 
     <!-- Scripts -->
-    {{-- <script src="/js/app.js"></script> --}}
+    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('js/swiper-bundle.min.js')}}"></script>
 </body>
 </html>
