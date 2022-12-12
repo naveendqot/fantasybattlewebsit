@@ -154,37 +154,37 @@
                             <div class="swiper-wrapper">
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-1.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-1.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-2.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-2.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-3.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-3.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-4.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-4.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-5.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-5.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-6.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-6.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                               <div class="swiper-slide">
                                 <div class="screen-ss">
-                                    <img src="img/swipe-7.png" alt="#" class="img-fluid swiper-images">
+                                    <img src="{{asset('img/swipe-7.png')}}" alt="#" class="img-fluid swiper-images">
                                 </div>
                               </div>
                             </div>
