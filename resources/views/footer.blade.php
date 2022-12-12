@@ -40,7 +40,7 @@
                             <a href="">Responsible Play</a>
                         </li>
                         <li>
-                            <a href="">Terms & Conditions</a>
+                            <a href="{{url('terms-condition')}}">Terms & Conditions</a>
                         </li>
                         <li>
                             <a href="">Refund Policy</a>

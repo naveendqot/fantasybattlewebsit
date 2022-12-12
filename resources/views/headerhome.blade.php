@@ -33,6 +33,10 @@
             </nav>
         </div>
     </header>
+    <div class="mobilefooterfixed d-lg-none d-xl-none d-md-none">
+        <h6>Get free <strong>Signup Bonus</strong></h6>
+        <a href="#" class="downloadbtn"><img src="img/downloadbutton.png" alt=""></a>
+    </div>
     @if(session()->has('message'))
     <div class="" id="alert">
         {{ session()->get('message') }}
