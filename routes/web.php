@@ -22,6 +22,10 @@ Route::get('/', function () {
 Route::get('/about-us', function () {return view('about_us');});
 Route::get('/how-to-play', function () {return view('how_to_play');});
 Route::get('/terms-condition', function () {return view('terms_condition');});
+Route::get('/fantasy-points-system', function () {return view('fantasy_point_system');});
+Route::get('/legality', function () {return view('legality');});
+Route::get('/faq', function () {return view('faq');});
+Route::get('/privacy-policy', function () {return view('privacy_policy');});
 Route::get('/contact', function () {return view('contact');});
 Route::post('/contact', [HomeController::class,'sendmail']);
 

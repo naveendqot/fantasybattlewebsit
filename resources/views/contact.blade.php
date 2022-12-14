@@ -36,6 +36,11 @@
                                     <div class="submit-col"><button type="submit" class="btn btn-primary">Send</button></div>
                                 </div>
                             </form>
+                            
+                        </div>
+                        <div class="conatct-sec">
+                        <p> Address:- Fantasy Battle Gaming Private LimitedC/o Sanjay Singh Shivajee Colony Purnea Bihar</p>
+                        <p> Mobile No:- <a href="">+91 8686863869</a></p>
                         </div>
                     </div>
                 </div>

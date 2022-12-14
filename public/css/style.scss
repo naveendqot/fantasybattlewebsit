@@ -399,7 +399,7 @@ $redcolor: #d2042d;
         .heading-footer {
             h4 {
                 font-weight: 600;
-                font-size: 18px;
+                font-size: 35px;
                 color: $whitecolor;
             }
         }
@@ -423,7 +423,7 @@ $redcolor: #d2042d;
         color: $whitecolor;
             p {
                 margin: 11px 0;
-                font-size: 14px;
+                font-size: 19px;
                 font-weight: 500;
             }
 
@@ -553,15 +553,57 @@ $redcolor: #d2042d;
             text-align: right;
             justify-content: flex-end;
         }
+        
 }
-
+.terms-condition-main{
+   
+    .list-heading {
+        font-size: 20px;
+        font-weight: 600;
+        list-style: decimal;
+        padding-top: 10px;
+    }
+    .none-list {
+        list-style: none;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 19px;
+    }
+    .list-pregraph{
+        list-style: circle;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 19px;
+    }
+    .list-square {
+        list-style: square;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 19px;
+    }
+    .list-subheading{
+        font-size: 16px;
+        font-weight: 600;
+        list-style: decimal;
+        padding-top: 10px;
+    }
+   
+}
+.view-more {
+    color: #fff;
+    background: #d2042d;
+    border: 1px solid;
+    padding: 8px 19px;
+    font-weight: 600;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
 .contact-sec{
     .page-title {
         color: $redcolor;
         font-size: 40px;
         font-weight: 700;
-
-    margin-top: 190px;
     }
     .cotact-form {
         background: $whitecolor;
@@ -589,7 +631,39 @@ $redcolor: #d2042d;
     text-align: center;
 
 }
+.conatct-sec {
+    p{
+        a{
+            text-decoration: none;
+            color: $redcolor;
+        }
+    }
+}
+.legltiy-main{
+    .leagltiy-heading{
+        font-size: 25px;
+        color: $redcolor;
+        font-weight: 600;
+    }
+    ul {
+        padding: 0px 0 0 17px;
+        li{
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+}
 
+.points-main{
+    .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .tab-content{
+        display: flex;
+    justify-content: center;
+    }
+}
 
 
 

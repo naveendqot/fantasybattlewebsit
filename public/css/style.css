@@ -344,7 +344,7 @@ body {
 }
 .footer .quick-links .heading-footer h4 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 35px;
   color: #fff;
 }
 .footer .quick-links ul {
@@ -367,7 +367,7 @@ body {
 }
 .footer .disclamier p {
   margin: 11px 0;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 500;
 }
 
@@ -486,11 +486,52 @@ body {
   justify-content: flex-end;
 }
 
+.terms-condition-main .list-heading {
+  font-size: 20px;
+  font-weight: 600;
+  list-style: decimal;
+  padding-top: 10px;
+}
+.terms-condition-main .none-list {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 19px;
+}
+.terms-condition-main .list-pregraph {
+  list-style: circle;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 19px;
+}
+.terms-condition-main .list-square {
+  list-style: square;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 19px;
+}
+.terms-condition-main .list-subheading {
+  font-size: 16px;
+  font-weight: 600;
+  list-style: decimal;
+  padding-top: 10px;
+}
+
+.view-more {
+  color: #fff;
+  background: #d2042d;
+  border: 1px solid;
+  padding: 8px 19px;
+  font-weight: 600;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .contact-sec .page-title {
   color: #d2042d;
   font-size: 40px;
   font-weight: 700;
-  margin-top: 190px;
 }
 .contact-sec .cotact-form {
   background: #fff;
@@ -508,6 +549,39 @@ body {
   padding: 8px 35px;
   background-color: #d2042d;
   border: 1px solid #d2042d;
+}
+
+#alert {
+  z-index: 10000 !important;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.conatct-sec p a {
+  text-decoration: none;
+  color: #d2042d;
+}
+
+.legltiy-main .leagltiy-heading {
+  font-size: 25px;
+  color: #d2042d;
+  font-weight: 600;
+}
+.legltiy-main ul {
+  padding: 0px 0 0 17px;
+}
+.legltiy-main ul li {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.points-main .nav {
+  display: flex;
+  justify-content: center;
+}
+.points-main .tab-content {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 1191.98px) {
