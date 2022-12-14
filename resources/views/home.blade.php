@@ -256,7 +256,7 @@
             </div>
         </div>
     </section>
-    <div class="faq-sec">
+    <section class="faq-sec">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -360,7 +360,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
 </main>
