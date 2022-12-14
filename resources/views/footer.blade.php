@@ -31,10 +31,10 @@
                     </div>
                     <ul>
                         <li>
-                            <a href="about-us.html">About Us</a>
+                            <a href="{{url('about-us')}}">About Us</a>
                         </li>
                         <li>
-                            <a href="">Legality</a>
+                            <a href="{{url('legality')}}">Legality</a>
                         </li>
                         <li>
                             <a href="">Responsible Play</a>
@@ -43,7 +43,7 @@
                             <a href="{{url('terms-condition')}}">Terms & Conditions</a>
                         </li>
                         <li>
-                            <a href="">Refund Policy</a>
+                            <a href="{{url('refund-policy')}}">Refund Policy</a>
                         </li>
                     </ul>
                 </div>
@@ -55,17 +55,17 @@
                     </div>
                     <ul>
                         <li>
-                            <a href="">Privacy Policy</a>
+                            <a href="{{url('privacy-policy')}}">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="how_to_play.html">How To Play</a>
+                            <a href="{{url('how-to-play')}}">How To Play</a>
                         </li>
                         <li>
-                            <a href="#">Fantasy Points System</a>
+                            <a href="{{url('fantasy-points-system')}}">Fantasy Points System</a>
                             <!-- <a href="{{url('fantasy-points-system')}}">Fantasy Points System</a> -->
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="{{url('contact')}}">Contact Us</a>
                         </li>
                     </ul>
                 </div>

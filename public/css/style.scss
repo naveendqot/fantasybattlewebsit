@@ -371,8 +371,33 @@ $redcolor: #d2042d;
         }
     }
 }
-
-
+.accordion-button{
+    &::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12' fill='none'%3E%3Cpath d='M2.85714 0L10 7.14286L17.1429 0L20 1.42857L10 11.4286L0 1.42857L2.85714 0Z' fill='black'/%3E%3C/svg%3E");
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+.accordion-button{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.accordion-button:not(.collapsed) {
+    color: $whitecolor;
+    background-color: $redcolor;
+    
+    &::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='12' viewBox='0 0 20 12' fill='none'%3E%3Cpath d='M2.85714 0L10 7.14286L17.1429 0L20 1.42857L10 11.4286L0 1.42857L2.85714 0Z' fill='white'/%3E%3C/svg%3E");
+        background-repeat: no-repeat no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+}
+button:focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+}
 .footer {
     background-color: $redcolor;
     padding: 30px 0px;
@@ -639,6 +664,14 @@ $redcolor: #d2042d;
         }
     }
 }
+.privacy_li{
+    font-weight: 500;
+}
+.leagltiy-heading{
+    font-size: 25px;
+    color: $redcolor;
+    font-weight: 600;
+}
 .legltiy-main{
     .leagltiy-heading{
         font-size: 25px;
@@ -658,10 +691,101 @@ $redcolor: #d2042d;
     .nav{
         display: flex;
         justify-content: center;
+        background: $whitecolor;
+        padding: 10px;
+        box-shadow: 0px 4px 12px rgb(0 0 0 / 15%);
+        border-radius: 10px;
+        .nav-item{
+            .nav-link {
+                background: transparent;
+                margin: 0 33px;
+                color: #969696;
+                font-weight: 700;
+            }
+            .nav-link.active{
+                color: $redcolor;
+                border-bottom: 2px solid;
+                border-radius: 0;
+            }
+        }
+    }
+    .cricket-main-tab{
+        .nav{
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+            box-shadow: none;
+            border-radius: 5px;
+            .nav-item{
+                .nav-link {
+                    background: $blackcolor;
+                    color: $whitecolor;
+                    font-weight: 700;
+                    padding: 12px 119px;
+                    border-bottom: 0px;
+                    border-radius: 0;
+                    margin: 0;
+                }
+                .nav-link.active{
+                    color: $whitecolor;
+                    border-radius: 0;
+                    background: $redcolor;
+                }
+            }
+            .nav-item:first-child .nav-link {
+                border-top-left-radius: 5px;
+            }
+            .nav-item:last-child .nav-link {
+                border-top-right-radius: 5px;
+            }
+        }
     }
     .tab-content{
         display: flex;
     justify-content: center;
+    }
+    .accordion-collapse{
+        .table-responsive{
+            overflow-x: auto;
+            margin-top: 10px;
+            .table{
+                tr{
+                    th{
+                        h6{
+                            margin: 0;
+                            font-weight: 600;
+                        }
+                    }
+                    td{
+                        span{
+                            background: $redcolor;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 3px;
+                            font-size: 16px;
+                            padding: 2px 8px;
+                            font-weight: 600;
+                            color: #fff;
+                            max-width: 70px;
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+        .points-body{
+            ul{
+                padding-left: 26px;
+                li{
+                    list-style: disc;
+                    margin-bottom: 20px;
+                    color: $blackcolor;
+                    font-weight: 500;
+                }
+            }
+        }
     }
 }
 

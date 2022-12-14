@@ -54,7 +54,7 @@
                                             <div class="image"><img src="img/how_to_play_5.png" alt="" class="img-fluid"></div>
                                             <div class="text">
                                                 <h3>BECOME A PART OF A LEAGUE</h3>
-                                                <p>With your playing XI join a league or contest organized by MYMASTER11 to compete with other
+                                                <p>With your playing XI join a league or contest organized by FANTASYBATLE to compete with other
                                                     users or compete with your friends through a private league created by you or your friends.
                                                 </p>
                                             </div>
