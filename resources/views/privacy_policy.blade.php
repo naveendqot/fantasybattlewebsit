@@ -7,7 +7,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 text-center">
                     <h2 class="page-title">
-                        About Us </h2>
+                    Privacy Policy  </h2>
                 </div>
                 <div class="col-md-10" style="text-align: justify;">
                     <p>

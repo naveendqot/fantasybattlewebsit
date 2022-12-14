@@ -6,7 +6,7 @@
                     <a class="navbar-brand" href="#">
                         <img src="img/red-logo.png" alt="#" class="img-fluid">
                     </a>
-                    <a href="#" class="btn downloadbtn d-xl-none d-lg-none ">Download APP</a>
+                    <a href="{{url('apk-download')}}" class="btn downloadbtn d-xl-none d-lg-none ">Download APP</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -25,9 +25,11 @@
                                 <a class="other-page-color nav-link" href="{{url('contact')}}">CONTACT US</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
+                        {{-- <form class="d-flex" role="search"> --}}
+                            <a href="{{url('apk-download')}}">
                             <button class="btn btn-primary btn-red d-xl-block d-lg-block d-md-none d-none" type="submit">Download APP</button>
-                        </form>
+                            </a>
+                        {{-- </form> --}}
                     </div>
                 </div>
             </nav>

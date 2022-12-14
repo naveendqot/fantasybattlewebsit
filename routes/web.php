@@ -26,6 +26,7 @@ Route::get('/fantasy-points-system', function () {return view('fantasy_point_sys
 Route::get('/legality', function () {return view('legality');});
 Route::get('/faq', function () {return view('faq');});
 Route::get('/privacy-policy', function () {return view('privacy_policy');});
+Route::get('/apk-download', [HomeController::class,'apkDownlaod']);
 Route::get('/contact', function () {return view('contact');});
 Route::post('/contact', [HomeController::class,'sendmail']);
 
