@@ -9,15 +9,17 @@ use Illuminate\Support\Facades\Storage;
 class HomeController extends Controller
 {
     public function sendmail(Request $request){
-        //echo "ttttttttttt".$request->email;
-        //return $request->email;
-        // $data = array('name'=>$request->email,'email'=>$request->email,"phone"=>$request->phone,'message'=>$request->phone);
-        // Mail::send(['text'=>'mail'], $data, function($message) {
-        //     $message->to('naveenoffice2324@gmail.com', 'Tutorials Point')->subject
-        //        ('Laravel Basic Testing Mail');
-        //     $message->from('fantasybattleofficial@gmail.com','Fantasybattle');
-        //  });
-        return redirect()->back()->with('message','Item created successfully!');
+
+
+        $data = array('name'=>$request->first_name.' '.$request->last_name,'email'=>$request->email,"phone"=>$request->phone,'msg'=>$request->message);
+        //return view('mail')->with($data);
+
+        Mail::send('mail', $data, function($message) {
+            $message->to('helpdesk@fantasybattle.in', 'Fantasybattle')->subject
+               ('Contact us Inquiry');
+            $message->from('fantasybattleofficial@gmail.com','Fantasybattle');
+         });
+        return redirect()->back()->with('message','Your Inquiry send successfully');
     }
 
     public function apkDownlaod(){
