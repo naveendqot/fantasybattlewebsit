@@ -28,10 +28,12 @@ class HomeController extends Controller
             $appName=getenv('APKURL');
             $filename = public_path($appName);
 
-            Storage::disk('local')->put($appName, file_get_contents($filename));
-            $path = Storage::path($appName);
+            // Storage::disk('local')->put($appName, file_get_contents($filename));
+            // $path = Storage::path($appName);
+            // return $path;
             //$this->downloadapk($path);
             //return redirect()->back();
-            return response()->download($path);
+
+            return response()->download($filename);
     }
 }
