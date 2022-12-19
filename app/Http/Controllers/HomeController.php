@@ -23,13 +23,15 @@ class HomeController extends Controller
     }
 
     public function apkDownlaod(){
-            $appName='fantasybattle_01.apk';
-            $filename = public_path('fantasybattle_01.apk');
+            //$apkfile=
+
+            $appName=getenv('APKURL');
+            $filename = public_path($appName);
 
             Storage::disk('local')->put($appName, file_get_contents($filename));
             $path = Storage::path($appName);
             //$this->downloadapk($path);
-            return redirect()->back();
-            //return response()->download($path);
+            //return redirect()->back();
+            return response()->download($path);
     }
 }
