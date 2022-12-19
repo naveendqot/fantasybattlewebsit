@@ -3,7 +3,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="{{url('/')}}">
                         <img src="img/red-logo.png" alt="#" class="img-fluid">
                     </a>
                     <a href="{{url('apk-download')}}" class="btn downloadbtn d-xl-none d-lg-none ">Download APP</a>

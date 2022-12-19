@@ -16,15 +16,15 @@
                                     <ul>
                                         <li>
                                             <div class="image"><img src="img/how_to_play_1.png" alt="" class="img-fluid"></div>
-                                            <div class="text">
-                                                <h3>Select a Match</h3>
+                                            <div class="text new-add-how">
+                                                <h3 class="pt-5">Select a Match</h3>
                                                 <p>Choose the match you want to play and show-off your skills.</p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="image"><img src="img/how_to_play_2.png" alt="" class="img-fluid"></div>
                                             <div class="text">
-                                                <h3>SELECT YOUR PLAYING XI</h3>
+                                                <h3 class="pt-5">SELECT YOUR PLAYING XI</h3>
                                                 <p>Create your own team by selecting different players within a defined virtual credit points.
                                                 </p>
                                                 <p></p>
@@ -32,7 +32,7 @@
                                         </li>
                                         <li>
                                             <div class="image"><img src="img/how_to_play_3.png" alt="" class="img-fluid"></div>
-                                            <div class="text">
+                                            <div class="text new-add-how">
                                                 <h3>CHOOSE YOUR CAPTAIN &amp; VICE CAPTAIN</h3>
                                                 <p>Once you choose your playing 11 it’s time to choose your captain &amp; vice-captain that will
                                                     help you earn extra points.</p>
@@ -43,16 +43,16 @@
                                         <li>
                                             <div class="image"><img src="img/how_to_play_4.png" alt="" class="img-fluid"></div>
                                             <div class="text">
-                                                <h3>ONE LEAGUE, MULTIPLE TEAMS</h3>
+                                                <h3  class="pt-5">ONE LEAGUE, MULTIPLE TEAMS</h3>
                                                 <p>Increase your winning chances with Multiple Entries. Join a “Multiple Entry” League with a
-                                                    maximum of 15 different teams<sup><a href="#">T&amp;C
+                                                    maximum of 15 different teams<sup><a href="{{url('terms-condition')}}">T&amp;C
                                                             Apply</a></sup>.</p>
                                                 <p></p>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="image"><img src="img/how_to_play_5.png" alt="" class="img-fluid"></div>
-                                            <div class="text">
+                                            <div class="text new-add-how">
                                                 <h3>BECOME A PART OF A LEAGUE</h3>
                                                 <p>With your playing XI join a league or contest organized by FANTASYBATLE to compete with other
                                                     users or compete with your friends through a private league created by you or your friends.

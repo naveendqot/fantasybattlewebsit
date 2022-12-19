@@ -4,7 +4,7 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\URL;
 
-//URL::forceScheme('https');
+URL::forceScheme('https');
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +29,7 @@ Route::get('/legality', function () {return view('legality');});
 Route::get('/faq', function () {return view('faq');});
 Route::get('/privacy-policy', function () {return view('privacy_policy');});
 Route::get('/refund-policy', function () {return view('refund_policy');});
+Route::get('/responsible-play', function () {return view('responsible_play');});
 Route::get('/apk-download', [HomeController::class,'apkDownlaod']);
 Route::get('/contact', function () {return view('contact');});
 Route::post('/contact', [HomeController::class,'sendmail']);

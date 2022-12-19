@@ -2,6 +2,20 @@ body {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #d2042d;
+}
+
 .mgt-50 {
   margin-top: 50px;
 }
@@ -13,6 +27,10 @@ body {
 
 .other-page-color {
   color: #000 !important;
+}
+
+a {
+  text-decoration: none;
 }
 
 .fixed {
@@ -302,6 +320,8 @@ body {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   background-size: cover;
+  width: 13px;
+  height: 13px;
 }
 .faq-sec .faq-main .accordion-button:not(.collapsed) {
   color: #fff;
@@ -313,6 +333,8 @@ body {
   background-repeat: no-repeat no-repeat;
   background-position: center center;
   background-size: cover;
+  width: 13px;
+  height: 13px;
 }
 .faq-sec .faq-main button:focus:not(:focus-visible) {
   outline: 0;
@@ -372,7 +394,7 @@ button:focus:not(:focus-visible) {
 }
 .footer .quick-links .heading-footer h4 {
   font-weight: 600;
-  font-size: 35px;
+  font-size: 18px;
   color: #fff;
 }
 .footer .quick-links ul {
@@ -415,8 +437,9 @@ button:focus:not(:focus-visible) {
 }
 .copyright .footer_bar .ft-left-bar p a {
   text-decoration: none;
-  color: #fff;
+  color: #d4d700;
   font-weight: 600;
+  border-bottom: 1px solid;
 }
 .copyright .footer_bar .ft-right-bar {
   margin-top: 20px;
@@ -467,9 +490,6 @@ button:focus:not(:focus-visible) {
 }
 .innerpages .how_to_play_ss .howTocolumn ul li .text {
   width: 45%;
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
   border-radius: 10px;
   min-height: 260px;
   padding: 30px 60px;
@@ -479,6 +499,7 @@ button:focus:not(:focus-visible) {
   margin-left: -30px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  text-align: start;
 }
 .innerpages .how_to_play_ss .howTocolumn ul li .text::before {
   content: counter(li);
@@ -503,7 +524,6 @@ button:focus:not(:focus-visible) {
   color: #000;
 }
 .innerpages .how_to_play_ss .howTocolumn ul li .text p {
-  max-width: 85%;
   font-size: 15px;
   line-height: 26px;
 }
@@ -695,7 +715,34 @@ button:focus:not(:focus-visible) {
   font-weight: 500;
 }
 
+.responsuble-content .respons-heading {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 700;
+}
+.responsuble-content .reson-icon {
+  background: hsl(0deg, 0%, 87%);
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 39px 0px;
+}
+.responsuble-content .reson-icon svg {
+  width: 55px;
+}
+
 @media (max-width: 1191.98px) {
+  .points-main .nav .nav-item .nav-link {
+    margin: 0 10px;
+  }
+  .points-main .cricket-main-tab .nav .nav-item .nav-link {
+    padding: 12px 86px;
+  }
   .header {
     border-bottom: 1px solid #fff;
   }
@@ -722,7 +769,7 @@ button:focus:not(:focus-visible) {
     max-width: 120px;
   }
   .hero-sec .download-btns a .app-store {
-    min-width: 120px;
+    min-width: 145px;
     margin-left: 10px;
   }
   .download-sec .download-heading .section-heading {
@@ -780,6 +827,15 @@ button:focus:not(:focus-visible) {
   }
 }
 @media (max-width: 991.98px) {
+  .points-main .cricket-main-tab .nav .nav-item .nav-link {
+    padding: 12px 59px;
+  }
+  .contact-sec .page-title {
+    margin: 26px 0px;
+  }
+  .other-page-bg .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath d='M947.8,274.4H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,255.5,971.1,274.4,947.8,274.4z'/%3E%3Cpath d='M947.8,542.2H52.2C28.9,542.2,10,523.3,10,500l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,523.3,971.1,542.2,947.8,542.2z'/%3E%3Cpath d='M947.8,810.1H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,791.2,971.1,810.1,947.8,810.1z'/%3E%3C/g%3E%3C/svg%3E");
+  }
   .other-page-color {
     color: #fff !important;
   }
@@ -802,6 +858,20 @@ button:focus:not(:focus-visible) {
   }
 }
 @media (max-width: 767.98px) {
+  .accordion-button {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .contact-sec .page-title {
+    margin: 30px 0;
+    font-size: 26px;
+  }
+  .points-main .cricket-main-tab .nav .nav-item .nav-link {
+    padding: 10px 20px;
+  }
+  .other-page-bg .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath d='M947.8,274.4H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,255.5,971.1,274.4,947.8,274.4z'/%3E%3Cpath d='M947.8,542.2H52.2C28.9,542.2,10,523.3,10,500l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,523.3,971.1,542.2,947.8,542.2z'/%3E%3Cpath d='M947.8,810.1H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,791.2,971.1,810.1,947.8,810.1z'/%3E%3C/g%3E%3C/svg%3E");
+  }
   .header .navbar .downloadbtn {
     margin-left: 180px;
   }
@@ -838,7 +908,7 @@ button:focus:not(:focus-visible) {
     border-bottom-right-radius: 0;
     width: 100% !important;
     text-align: center !important;
-    padding: 30px 0px !important;
+    padding: 30px 20px !important;
   }
   .howTocolumn ul li .text:before, .howTocolumn ul li:nth-child(2n) .text:before {
     position: static !important;
@@ -860,8 +930,31 @@ button:focus:not(:focus-visible) {
   .other-page-color {
     color: #fff !important;
   }
+  .footer .disclamier p {
+    font-size: 17px;
+  }
+  .new-add-how {
+    margin-left: 0px !important;
+  }
 }
 @media (max-width: 575.98px) {
+  .new-add-how {
+    margin-left: 0px !important;
+  }
+  .accordion-button {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  .contact-sec .page-title {
+    margin: 30px 0;
+    font-size: 26px;
+  }
+  .points-main .cricket-main-tab .nav .nav-item .nav-link {
+    padding: 10px 20px;
+  }
+  .other-page-bg .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath d='M947.8,274.4H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,255.5,971.1,274.4,947.8,274.4z'/%3E%3Cpath d='M947.8,542.2H52.2C28.9,542.2,10,523.3,10,500l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,523.3,971.1,542.2,947.8,542.2z'/%3E%3Cpath d='M947.8,810.1H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,791.2,971.1,810.1,947.8,810.1z'/%3E%3C/g%3E%3C/svg%3E");
+  }
   .header .navbar {
     padding: 13px 0px;
   }
@@ -916,7 +1009,7 @@ button:focus:not(:focus-visible) {
   .faq-sec .faq-heading h2 {
     font-size: 20px;
   }
-  .faq-sec .faq-main .accordion-button:not(.collapsed) {
+  .faq-sec .faq-main .accordion-button {
     font-weight: 500;
     font-size: 13px;
   }
@@ -929,5 +1022,8 @@ button:focus:not(:focus-visible) {
   }
   .copyright .footer_bar .ft-left-bar p {
     font-size: 12px;
+  }
+  .footer .disclamier p {
+    font-size: 17px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,20 @@
 body {
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
 
+body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #d2042d; 
+}
 .mgt-50 {
     margin-top: 50px;
 }
@@ -11,6 +24,9 @@ body {
 }
 .other-page-color{
     color: #000 !important;
+}
+a{
+    text-decoration: none;
 }
 $blackcolor: #000;
 $whitecolor: #fff;
@@ -352,6 +368,8 @@ $redcolor: #d2042d;
                 background-repeat: no-repeat no-repeat;
                 background-position: center center;
                 background-size: cover;
+                width: 13px;
+                height: 13px;
             }
         }
         .accordion-button:not(.collapsed) {
@@ -363,6 +381,8 @@ $redcolor: #d2042d;
                 background-repeat: no-repeat no-repeat;
                 background-position: center center;
                 background-size: cover;
+                width: 13px;
+                height: 13px;
             }
         }
         button:focus:not(:focus-visible) {
@@ -424,7 +444,7 @@ button:focus:not(:focus-visible) {
         .heading-footer {
             h4 {
                 font-weight: 600;
-                font-size: 35px;
+                font-size: 18px;
                 color: $whitecolor;
             }
         }
@@ -469,8 +489,9 @@ button:focus:not(:focus-visible) {
                 margin-bottom: 0;
                 a {
                     text-decoration: none;
-                    color: $whitecolor;
+                    color: #d4d700;
                     font-weight: 600;
+                    border-bottom: 1px solid;
                 }
             }
         }
@@ -528,9 +549,6 @@ button:focus:not(:focus-visible) {
                         }
                         .text {
                             width: 45%;
-                            display: flex;
-                            align-content: center;
-                            flex-wrap: wrap;
                             border-radius: 10px;
                             min-height: 260px;
                             padding: 30px 60px;
@@ -540,6 +558,7 @@ button:focus:not(:focus-visible) {
                             margin-left: -30px;
                             box-shadow: 0 0 30px rgb(0 0 0 / 10%);
                             -webkit-box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+                            text-align: start;
                             &::before {
                                 content: counter(li);
                                 background: $redcolor;
@@ -563,7 +582,6 @@ button:focus:not(:focus-visible) {
                                 color: $blackcolor;
                             }
                             p {
-                                max-width: 85%;
                                 font-size: 15px;
                                 line-height: 26px;
                             }
@@ -788,7 +806,28 @@ button:focus:not(:focus-visible) {
         }
     }
 }
-
+.responsuble-content{
+    .respons-heading{
+        font-size: 20px;
+        line-height: 24px;
+        color: $blackcolor;
+        font-weight: 700;
+    }
+   .reson-icon{
+       background: hsl(0deg 0% 87%);
+       width: 85px;
+       height: 85px;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       margin: 39px 0px;
+    svg{
+        width: 55px;
+    }
+   }
+}
 
 
 
@@ -808,6 +847,24 @@ button:focus:not(:focus-visible) {
 
 
 @media (max-width: 1191.98px){
+    .points-main{
+        .nav {
+            .nav-item {
+                .nav-link {
+                    margin: 0 10px;
+                }
+            }
+        }
+        .cricket-main-tab{
+            .nav {
+                .nav-item{
+                    .nav-link {
+                        padding: 12px 86px;
+                    }
+                }
+            }
+        }
+    }
     .header{
         border-bottom: 1px solid $whitecolor;
         .navbar {
@@ -842,7 +899,7 @@ button:focus:not(:focus-visible) {
                     max-width: 120px;
                 }
                 .app-store {
-                    min-width: 120px;
+                    min-width: 145px;
                     margin-left: 10px;
                 }
             }
@@ -943,6 +1000,29 @@ button:focus:not(:focus-visible) {
 }
 
 @media (max-width: 991.98px){
+    .points-main {
+        .cricket-main-tab{
+            .nav{
+                .nav-item {
+                    .nav-link {
+                        padding: 12px 59px;
+                    }
+                }
+            }
+        }
+    }
+    .contact-sec {
+        .page-title {
+            margin: 26px 0px;
+        }
+    }
+    
+    
+    .other-page-bg{
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath d='M947.8,274.4H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,255.5,971.1,274.4,947.8,274.4z'/%3E%3Cpath d='M947.8,542.2H52.2C28.9,542.2,10,523.3,10,500l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,523.3,971.1,542.2,947.8,542.2z'/%3E%3Cpath d='M947.8,810.1H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,791.2,971.1,810.1,947.8,810.1z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+    }
     .other-page-color {
         color: #fff !important;
     }
@@ -970,6 +1050,32 @@ button:focus:not(:focus-visible) {
 
 
 @media (max-width: 767.98px){
+    .accordion-button {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .contact-sec {
+        .page-title {
+            margin: 30px 0;
+            font-size: 26px;
+        }
+    }
+    .points-main {
+        .cricket-main-tab{
+            .nav{
+                .nav-item {
+                    .nav-link {
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+    .other-page-bg{
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath d='M947.8,274.4H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,255.5,971.1,274.4,947.8,274.4z'/%3E%3Cpath d='M947.8,542.2H52.2C28.9,542.2,10,523.3,10,500l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,523.3,971.1,542.2,947.8,542.2z'/%3E%3Cpath d='M947.8,810.1H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,791.2,971.1,810.1,947.8,810.1z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+    }
     .header{
         .navbar {
             .downloadbtn {
@@ -1012,7 +1118,7 @@ button:focus:not(:focus-visible) {
         border-bottom-right-radius: 0;
         width: 100% !important;
         text-align: center !important;
-        padding: 30px 0px !important;
+        padding: 30px 20px !important;
     }
     .howTocolumn ul li .text:before, .howTocolumn ul li:nth-child(2n) .text:before {
         position: static !important;
@@ -1035,10 +1141,46 @@ button:focus:not(:focus-visible) {
     .other-page-color {
         color: #fff !important;
     }
+    .footer .disclamier p {
+        font-size: 17px;
+    }
+    .new-add-how {
+        margin-left: 0px !important;
+    }
 }
 
 
 @media (max-width: 575.98px){
+    .new-add-how {
+        margin-left: 0px !important;
+    }
+    .accordion-button {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .contact-sec {
+        .page-title {
+            margin: 30px 0;
+            font-size: 26px;
+        }
+    }
+    .points-main {
+        .cricket-main-tab{
+            .nav{
+                .nav-item {
+                    .nav-link {
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+    .other-page-bg{
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' viewBox='0 0 1000 1000' enable-background='new 0 0 1000 1000' xml:space='preserve'%3E%3Cmetadata%3E Svg Vector Icons : http://www.onlinewebfonts.com/icon %3C/metadata%3E%3Cg%3E%3Cpath d='M947.8,274.4H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,255.5,971.1,274.4,947.8,274.4z'/%3E%3Cpath d='M947.8,542.2H52.2C28.9,542.2,10,523.3,10,500l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,523.3,971.1,542.2,947.8,542.2z'/%3E%3Cpath d='M947.8,810.1H52.2c-23.3,0-42.2-18.9-42.2-42.2l0,0c0-23.3,18.9-42.2,42.2-42.2h895.6c23.3,0,42.2,18.9,42.2,42.2l0,0C990,791.2,971.1,810.1,947.8,810.1z'/%3E%3C/g%3E%3C/svg%3E");
+        }
+    }
+    
     .header{
         .navbar {
             .downloadbtn {
@@ -1128,7 +1270,7 @@ button:focus:not(:focus-visible) {
             }
         }
         .faq-main{
-            .accordion-button:not(.collapsed) {
+            .accordion-button {
                 font-weight: 500;
                 font-size: 13px;
             }
@@ -1157,7 +1299,9 @@ button:focus:not(:focus-visible) {
             }
         }
     }
-
+    .footer .disclamier p {
+        font-size: 17px;
+    }
 
 
 }
