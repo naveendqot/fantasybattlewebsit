@@ -738,6 +738,10 @@ button:focus:not(:focus-visible) {
 }
 
 @media (max-width: 1191.98px) {
+    /* footer {
+        display: none !important;
+    } */
+
   .points-main .nav .nav-item .nav-link {
     margin: 0 10px;
   }

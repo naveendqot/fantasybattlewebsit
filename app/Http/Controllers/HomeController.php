@@ -22,8 +22,31 @@ class HomeController extends Controller
         return redirect()->back()->with('message','Your Inquiry send successfully');
     }
 
-    public function apkDownlaod(){
+    public function apkDownlaod(Request $request){
             //$apkfile=
+            if(!empty($request['invite_code']) || !empty($request['invite_code'])){
+                //echo $_SERVER['REMOTE_ADDR']."-------".$request['invite_code'];die;
+                $code=!empty($request['invite_code'])?$request['invite_code']:$request['affiliate_code'];
+                $ch = curl_init();
+                echo "<pre>";print_r($_SERVER);die;
+                $userIp=$_SERVER['HTTP_X_FORWARDED_FOR'];
+                if(is_array($_SERVER['HTTP_X_FORWARDED_FOR'])){
+                    $userIp=$_SERVER['HTTP_X_FORWARDED_FOR'][0];
+                }
+                $url='https://api.fantasybattle.in/pages/invite/add?invite_code='.$code.'&ip='.$userIp;
+                //echo $url;die;
+                //set the url, number of POST vars, POST data
+                curl_setopt($ch, CURLOPT_URL, $url);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, True);
+                //execute post
+                $result = curl_exec($ch);
+                $resultArray=json_decode($result,true);
+                echo "<pre>ttt";print_r($resultArray);die;
+                if($resultArray['status'] && !empty($resultArray['data'])){
+                    $download = true;
+                }
+                curl_close($ch);
+            }
 
             $appName=getenv('APKURL');
             $filename = public_path($appName);
@@ -32,7 +55,7 @@ class HomeController extends Controller
             // $path = Storage::path($appName);
             // return $path;
             //$this->downloadapk($path);
-            //return redirect()->back();
+            return redirect()->back();
             return response()->file($filename ,[
                 'Content-Type'=>'application/vnd.android.package-archive',
             'Content-Disposition'=> 'attachment; filename="'.$appName.'"',
