@@ -41,7 +41,7 @@ class HomeController extends Controller
                 //execute post
                 $result = curl_exec($ch);
                 $resultArray=json_decode($result,true);
-                echo "<pre>ttt";print_r($resultArray);die;
+                //echo "<pre>ttt";print_r($resultArray);die;
                 if($resultArray['status'] && !empty($resultArray['data'])){
                     $download = true;
                 }
@@ -55,7 +55,7 @@ class HomeController extends Controller
             // $path = Storage::path($appName);
             // return $path;
             //$this->downloadapk($path);
-            
+
             return response()->file($filename ,[
                 'Content-Type'=>'application/vnd.android.package-archive',
             'Content-Disposition'=> 'attachment; filename="'.$appName.'"',
