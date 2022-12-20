@@ -24,11 +24,11 @@ class HomeController extends Controller
 
     public function apkDownlaod(Request $request){
             //$apkfile=
-            if(!empty($request['invite_code']) || !empty($request['invite_code'])){
+            if(!empty($request['invite_code']) || !empty($request['affiliate_code'])){
                 //echo $_SERVER['REMOTE_ADDR']."-------".$request['invite_code'];die;
                 $code=!empty($request['invite_code'])?$request['invite_code']:$request['affiliate_code'];
                 $ch = curl_init();
-                echo "<pre>";print_r($_SERVER);die;
+                //echo "<pre>";print_r($_SERVER);die;
                 $userIp=$_SERVER['HTTP_X_FORWARDED_FOR'];
                 if(is_array($_SERVER['HTTP_X_FORWARDED_FOR'])){
                     $userIp=$_SERVER['HTTP_X_FORWARDED_FOR'][0];
@@ -55,7 +55,7 @@ class HomeController extends Controller
             // $path = Storage::path($appName);
             // return $path;
             //$this->downloadapk($path);
-            return redirect()->back();
+            
             return response()->file($filename ,[
                 'Content-Type'=>'application/vnd.android.package-archive',
             'Content-Disposition'=> 'attachment; filename="'.$appName.'"',
