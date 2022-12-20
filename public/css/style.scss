@@ -436,6 +436,7 @@ button:focus:not(:focus-visible) {
                 color: $whitecolor;
                 line-height: 32px;
                 font-weight: 500;
+                font-family: sans-serif;
             }
         }
     }
@@ -1160,8 +1161,8 @@ button:focus:not(:focus-visible) {
     }
     .contact-sec {
         .page-title {
-            margin: 30px 0;
-            font-size: 26px;
+            margin: 8px 0;
+            font-size: 17px;
         }
     }
     .points-main {
@@ -1302,6 +1303,108 @@ button:focus:not(:focus-visible) {
     .footer .disclamier p {
         font-size: 17px;
     }
-
+    
+    .terms-condition-main{
+        .list-heading {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .none-list {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .list-pregraph {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .list-square {
+            font-size: 13px;
+            font-weight: 500;
+        }
+        ul{
+            padding: 0;
+        }
+    }
+    .innerpages{
+        padding: 100px 0px 0px 0;
+        p {
+            font-weight: 500;
+            font-size: 15px;
+        }
+        .page-title {
+              margin: 8px 0;
+              font-size: 17px;
+          }
+    }
+    .legltiy-main {
+        ul {
+            li {
+                font-size: 15px;
+            }
+        }
+        .leagltiy-heading {
+            font-size: 17px;
+        }
+    }
+    .responsuble-content{
+        .reson-icon {
+            width: 75px;
+            height: 75px;
+            margin: 11px 0px;
+            svg {
+                width: 45px;
+            }
+        }
+        .respons-heading {
+            font-size: 17px;
+        }
+    }
+    .refund-main{
+        h4 {
+            font-size: 18px;
+        }
+    }
+    .leagltiy-heading {
+        font-size: 19px;
+    }
+    .points-main{
+        .accordion-button {
+            font-size: 15px;
+            padding: 11px;
+        }
+        .accordion-button::after {
+            width: 13px;
+            height: 13px;
+        }
+        .accordion-collapse{
+            .table-responsive {
+                .table {
+                    tr{
+                        td {
+                            span {
+                                font-size: 14px;
+                                padding: 0px 4px;
+                            }
+                        }
+                        th{
+                            h6 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nav{
+            padding: 0;
+            .nav-item {
+                .nav-link {
+                    font-size: 12px;
+                    margin: 0;
+                    display: flex;
+                }
+            }
+        }
+    }
 
 }

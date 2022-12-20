@@ -33,7 +33,11 @@ class HomeController extends Controller
             // return $path;
             //$this->downloadapk($path);
             //return redirect()->back();
+            return response()->file($filename ,[
+                'Content-Type'=>'application/vnd.android.package-archive',
+            'Content-Disposition'=> 'attachment; filename="'.$appName.'"',
+        ]) ;
 
-            return response()->download($filename);
+            //return response()->download($filename);
     }
 }

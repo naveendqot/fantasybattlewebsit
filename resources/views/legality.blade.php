@@ -122,10 +122,6 @@
                                                 <p>The laws in Assam, Andhra Pradesh, Odisha, Telangana, Nagaland and Sikkim are unclear on
                                                 games of skill that may be played for a fee. Hence, residents of these states are not permitted to
                                                 join any cash contests on Fantasy Battle.</p>
-                                        <div>
-                                            <h2>&nbsp;</h2>
-                                            </div>
-                                            <p></p>
                         </div>
                     </div>
                 </div>

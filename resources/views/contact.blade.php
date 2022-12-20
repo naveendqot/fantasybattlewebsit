@@ -40,7 +40,7 @@
                         </div>
                         <div class="conatct-sec">
                         <p> Address:- Fantasy Battle Gaming Private LimitedC/o Sanjay Singh Shivajee Colony Purnea Bihar</p>
-                        <p> Mobile No:- <a href="">+91 8686863869</a></p>
+                        <p> Mobile No:- <a href="">+91 8404904318</a></p>
                         </div>
                     </div>
                 </div>

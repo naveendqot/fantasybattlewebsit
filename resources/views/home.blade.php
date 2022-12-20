@@ -31,12 +31,13 @@
                         <h2>Play Cricket & Win Real Cash</h2>
                     </div>
                     <div class="download-btns">
-                        <a href="">
+                        <a href={{url('apk-download')}} class="downloadbtn"><img src="img/downloadbutton.png" alt="" style="max-width: 360px;"></a>
+                        {{-- <a href="">
                             <img src="img/Google_Play.svg" alt="" class="img-fluid">
                         </a>
                         <a href="">
                             <img src="img/Download_on_the_App_Store_Badge.svg" alt="" class="img-fluid app-store">
-                        </a>
+                        </a> --}}
                     </div>
                 </div>
                 <div class="col-md-5">

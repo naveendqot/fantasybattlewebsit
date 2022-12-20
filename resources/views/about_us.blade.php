@@ -27,12 +27,6 @@
                             say, hard work does pay! So what are you waiting for? Come, Make your teams now &amp; start
                             winning on Fantasy Battle.</p>
                     </div>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <div>
-                        <h2>&nbsp;</h2>
-                    </div>
-                    <p></p>
                 </div>
             </div>
         </div>
