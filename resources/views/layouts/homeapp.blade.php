@@ -18,9 +18,8 @@
 
     <div id="app">
         @include('headerhome')
-
         @yield('content')
-        @include('footer')
+        @include('home_footer')
 
     </div>
 
