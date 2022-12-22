@@ -447,6 +447,7 @@ button:focus:not(:focus-visible) {
 }
 .copyright .footer_bar .ft-right-bar .social_ul {
   display: flex;
+  padding: 0;
 }
 .copyright .footer_bar .ft-right-bar li {
   list-style: none;
@@ -738,10 +739,6 @@ button:focus:not(:focus-visible) {
 }
 
 @media (max-width: 1191.98px) {
-    .moblie_footer {
-        display: none !important;
-    }
-
   .points-main .nav .nav-item .nav-link {
     margin: 0 10px;
   }
@@ -1019,17 +1016,27 @@ button:focus:not(:focus-visible) {
     font-size: 13px;
   }
   .copyright {
-    padding-bottom: 130px;
+    padding-bottom: 110px;
+  }
+  .copyright .footer_bar {
+    display: block;
+    text-align: center;
+  }
+  .copyright .footer_bar .ft-right-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
   }
   .copyright .footer_bar .ft-right-bar li a img {
     padding: 0px 5px;
-    width: 97px;
+    width: 45px;
   }
   .copyright .footer_bar .ft-left-bar p {
-    font-size: 12px;
+    font-size: 16px;
+    margin-top: 12px;
   }
   .footer .disclamier p {
-    font-size: 17px;
+    font-size: 15px;
   }
   .terms-condition-main .list-heading {
     font-size: 16px;
@@ -1106,5 +1113,11 @@ button:focus:not(:focus-visible) {
     font-size: 12px;
     margin: 0;
     display: flex;
+  }
+  .footer .quick-links {
+    margin-top: 0px;
+  }
+  .footer .quick-links ul li a {
+    line-height: 28px;
   }
 }/*# sourceMappingURL=style.css.map */
