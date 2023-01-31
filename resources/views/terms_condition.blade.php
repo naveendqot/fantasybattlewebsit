@@ -2024,10 +2024,10 @@
                                                                                         </li>
 
                                             </div>
-                                                    <button class="btn btn-primary view-more" type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                                        View More
-                                                    </button>
+                                                <button class="btn btn-primary view-more" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                                    View More
+                                                </button>
                                          </ul>
 
 

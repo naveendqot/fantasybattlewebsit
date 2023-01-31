@@ -1,5 +1,5 @@
 
-    <header class="header other-page-bg">
+    <header class="header other-page-bg moblie_footer">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -35,7 +35,7 @@
             </nav>
         </div>
     </header>
-    <div class="mobilefooterfixed d-lg-none d-xl-none d-md-none">
+    <div class="mobilefooterfixed d-lg-none d-xl-none d-md-none moblie_footer">
         <h6>Get free <strong>Signup Bonus</strong></h6>
         <a href={{url('apk-download')}} class="downloadbtn"><img src="img/downloadbutton.png" alt=""></a>
     </div>

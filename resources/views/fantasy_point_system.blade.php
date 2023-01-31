@@ -2090,7 +2090,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="football" role="tabpanel"
+                                <!-- <div class="tab-pane fade" id="football" role="tabpanel"
                                     aria-labelledby="pills-profile-tab" tabindex="0">2</div>
                                 <div class="tab-pane fade" id="kabaddi" role="tabpanel"
                                     aria-labelledby="pills-contact-tab" tabindex="0">3</div>
@@ -2099,7 +2099,7 @@
                                 <div class="tab-pane fade" id="basketball" role="tabpanel"
                                     aria-labelledby="pills-contact-tab" tabindex="0">5</div>
                                 <div class="tab-pane fade" id="hockey" role="tabpanel"
-                                    aria-labelledby="pills-contact-tab" tabindex="0">6</div>
+                                    aria-labelledby="pills-contact-tab" tabindex="0">6</div> -->
                             </div>
                         </div>
                     </div>

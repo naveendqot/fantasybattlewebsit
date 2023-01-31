@@ -940,6 +940,9 @@ button:focus:not(:focus-visible) {
   }
 }
 @media (max-width: 575.98px) {
+  .moblie_footer {
+    display: none;
+  }
   .new-add-how {
     margin-left: 0px !important;
   }
@@ -1058,7 +1061,7 @@ button:focus:not(:focus-visible) {
     padding: 0;
   }
   .innerpages {
-    padding: 100px 0px 0px 0;
+    padding: 8px 0px 0px 0;
   }
   .innerpages p {
     font-weight: 500;
@@ -1120,4 +1123,4 @@ button:focus:not(:focus-visible) {
   .footer .quick-links ul li a {
     line-height: 28px;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style 2.css.map */

@@ -11,11 +11,11 @@
                         </svg>
                         helpdesk@fantasybattle.in</a>
                     </li>
-                    <li><a href="tel:+918404904318">
+                    <li><a href="tel:+919334626366">
                     <svg width="15" height="20" viewBox="0 0 15 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.772 0.438993L3.848 0.0949929C4.857 -0.227007 5.935 0.293993 6.367 1.31199L7.227 3.33999C7.601 4.22299 7.393 5.26199 6.713 5.90799L4.818 7.70599C4.935 8.78199 5.297 9.84099 5.903 10.883C6.47847 11.8911 7.25037 12.7735 8.173 13.478L10.449 12.718C11.311 12.431 12.251 12.762 12.779 13.539L14.012 15.349C14.627 16.253 14.516 17.499 13.753 18.265L12.936 19.086C12.122 19.903 10.959 20.2 9.884 19.864C7.344 19.072 5.011 16.721 2.881 12.811C0.748002 8.89499 -0.00499849 5.57099 0.623002 2.84299C0.887002 1.69499 1.704 0.779993 2.772 0.438993V0.438993Z" fill="white" />
                     </svg>
-                    +91 8404904318</a></li>
+                    +91 9334626366</a></li>
                     <li>
                         <a href="https://t.me/FantasyBattleSupport" target="_blank">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -100,7 +100,7 @@
             </div>
     </div>
 </footer>
-<div class="copyright">
+<div class="copyright moblie_footer">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

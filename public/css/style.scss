@@ -1153,6 +1153,9 @@ button:focus:not(:focus-visible) {
 
 
 @media (max-width: 575.98px){
+    .moblie_footer {
+        display: none;
+    }
     .new-add-how {
         margin-left: 0px !important;
     }
@@ -1335,7 +1338,7 @@ button:focus:not(:focus-visible) {
         }
     }
     .innerpages{
-        padding: 100px 0px 0px 0;
+        padding: 8px 0px 0px 0;
         p {
             font-weight: 500;
             font-size: 15px;

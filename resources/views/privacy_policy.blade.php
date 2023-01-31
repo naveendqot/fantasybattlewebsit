@@ -246,12 +246,7 @@
                                                                             C/o Sanjay Singh, Shivajee Colony, Purnea, Bihar 854301</b></p>
 
                                                                         </div>
-                                                                        <p>&nbsp;</p>
-                                                                        <p>&nbsp;</p>
-                                                                        <div>
-                        <h2>&nbsp;</h2>
-                    </div>
-                    <p></p>
+                                                                      
                 </div>
             </div>
         </div>
