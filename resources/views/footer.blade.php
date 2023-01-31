@@ -113,16 +113,16 @@
                     <div class="ft-right-bar">
                         <ul class="social_ul">
                             <li>
-                                <a href="#"><img src="{{asset('img/fb.png" target="_blank" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="{{asset('img/fb.png')}}" target="_blank" class="img-fluid" alt=""></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/fantasybattlein" target="_blank"><img src="{{asset('img/tw.png" class="img-fluid" alt=""></a>
+                                <a href="https://twitter.com/fantasybattlein" target="_blank"><img src="{{asset('img/tw.png')}}" class="img-fluid" alt=""></a>
                             </li>
                             <li>
-                                <a href="https://instagram.com/fantasybattle" target="_blank"><img src="{{asset('img/ins.png" class="img-fluid" alt=""></a>
+                                <a href="https://instagram.com/fantasybattle" target="_blank"><img src="{{asset('img/ins.png')}}" class="img-fluid" alt=""></a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/@FantasyBattle" target="_blank"><img src="{{asset('img/yt.png" class="img-fluid" alt=""></a>
+                                <a href="https://www.youtube.com/@FantasyBattle" target="_blank"><img src="{{asset('img/yt.png')}}" class="img-fluid" alt=""></a>
                             </li>
                         </ul>
                     </div>
@@ -138,9 +138,9 @@
 
 
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/swiper-bundle.min.js"></script>
-<script src="js/main.js"></script>
+<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('js/swiper-bundle.min.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
 <script>
     $(window).scroll(function() {
 var sticky = $('header'),
