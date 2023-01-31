@@ -31,18 +31,18 @@
                         <h2>Play Cricket & Win Real Cash</h2>
                     </div>
                     <div class="download-btns">
-                        <a href={{url('apk-download')}} class="downloadbtn"><img src="img/downloadbutton.png" alt="" style="max-width: 360px;"></a>
+                        <a href={{url('apk-download')}} class="downloadbtn"><img src="{{asset('img/downloadbutton.png')}}" alt="" style="max-width: 360px;"></a>
                         {{-- <a href="">
-                            <img src="img/Google_Play.svg" alt="" class="img-fluid">
+                            <img src="{{asset('img/Google_Play.svg" alt="" class="img-fluid">
                         </a>
                         <a href="">
-                            <img src="img/Download_on_the_App_Store_Badge.svg" alt="" class="img-fluid app-store">
+                            <img src="{{asset('img/Download_on_the_App_Store_Badge.svg" alt="" class="img-fluid app-store">
                         </a> --}}
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="process-mobcup">
-                        <img src="img/mobcup.png" alt="#" class="img-fluid">
+                        <img src="{{asset('img/mobcup.png')}}" alt="#" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -67,7 +67,7 @@
                             <p>Click <strong> "Ok"</strong> to Download <span>FantasyBattle.apk</span> </p>
                         </div>
                         <div class="img-area">
-                            <img src="img/download-step-1.png" class="img-fluid" alt="step1">
+                            <img src="{{asset('img/download-step-1.png')}}" class="img-fluid" alt="step1">
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                             <p> Wait For the apk to download &amp; <span> click on "open"</span></p>
                         </div>
                         <div class="img-area">
-                            <img src="img/download-step-2.png" class="img-fluid" alt="step2">
+                            <img src="{{asset('img/download-step-2.png')}}" class="img-fluid" alt="step2">
                         </div>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                             <p>Allow installation from the <span> "Unknown Source"</span></p>
                         </div>
                         <div class="img-area">
-                            <img src="img/download-step-3.png" class="img-fluid" alt="step3">
+                            <img src="{{asset('img/download-step-3.png')}}" class="img-fluid" alt="step3">
                         </div>
                     </div>
                 </div>
@@ -218,7 +218,7 @@
                             </div>
                         </div>
                         <div class="steps-img">
-                            <img src="img/step-1.png" alt="#" class="img-fluid">
+                            <img src="{{asset('img/step-1.png')}}" alt="#" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -234,7 +234,7 @@
                             </div>
                         </div>
                         <div class="steps-img">
-                            <img src="img/step-2.png" alt="#" class="img-fluid">
+                            <img src="{{asset('img/step-2.png')}}" alt="#" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -250,7 +250,7 @@
                             </div>
                         </div>
                         <div class="steps-img">
-                            <img src="img/step-3.png" alt="#" class="img-fluid">
+                            <img src="{{asset('img/step-3.png')}}" alt="#" class="img-fluid">
                         </div>
                     </div>
                 </div>

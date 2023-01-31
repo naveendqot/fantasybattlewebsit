@@ -204,7 +204,7 @@
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -288,7 +288,7 @@
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -360,7 +360,7 @@
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -430,7 +430,7 @@
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -480,7 +480,7 @@
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -565,7 +565,7 @@
                                                                     data-bs-parent="#accordionExample">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -725,7 +725,7 @@
                                                                     data-bs-parent="#accordionExampleodi">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -809,7 +809,7 @@
                                                                     data-bs-parent="#accordionExampleodi">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -881,7 +881,7 @@
                                                                     data-bs-parent="#accordionExampleodi">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -951,7 +951,7 @@
                                                                     data-bs-parent="#accordionExampleodi">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1001,7 +1001,7 @@
                                                                     data-bs-parent="#accordionExampleodi">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1086,7 +1086,7 @@
                                                                     data-bs-parent="#accordionExampleodi">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1246,7 +1246,7 @@
                                                                     data-bs-parent="#accordionExampletest">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1330,7 +1330,7 @@
                                                                     data-bs-parent="#accordionExampletest">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1402,7 +1402,7 @@
                                                                     data-bs-parent="#accordionExampletest">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1472,7 +1472,7 @@
                                                                     data-bs-parent="#accordionExampletest">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1522,7 +1522,7 @@
                                                                     data-bs-parent="#accordionExampletest">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="points-data-content">
@@ -1593,7 +1593,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1677,7 +1677,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1749,7 +1749,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1819,7 +1819,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1869,7 +1869,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -1954,7 +1954,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="table-responsive">
@@ -2039,7 +2039,7 @@
                                                                     data-bs-parent="#accordionExampletten">
                                                                     <div class="accordion-body">
                                                                         <div class="t20-img">
-                                                                            <img src="img/cricket-sport-img.jpg" alt=""
+                                                                            <img src="{{asset('img/cricket-sport-img.jpg')}}" alt=""
                                                                                 class="img-fluid">
                                                                         </div>
                                                                         <div class="points-data-content">
