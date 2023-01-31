@@ -138,9 +138,9 @@
 
 
 
-<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-<script src="{{asset('js/swiper-bundle.min.js')}}"></script>
-<script src="{{asset('js/main.js')}}"></script>
+<script src="public/js/bootstrap.bundle.min.js'"></script>
+<script src="public/js/swiper-bundle.min.js"></script>
+<script src="public/js/main.js'"></script>
 <script>
     $(window).scroll(function() {
 var sticky = $('header'),
