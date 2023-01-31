@@ -26,7 +26,7 @@
 
     <!-- Scripts -->
     {{-- <script src="/js/app.js"></script> --}}
-    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{asset('js/swiper-bundle.min.js')}}"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
 </body>
 </html>

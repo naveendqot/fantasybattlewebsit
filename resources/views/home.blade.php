@@ -109,27 +109,27 @@
             <div class="row text-center mgt-50">
                 <div class="col-md-3">
                     <div class="why-content">
-                        <img class="img-fluid" src="img/withdrwal.svg" alt="Instant Withdrawal" width="90" height="90">
+                        <img class="img-fluid" src="{{asset('img/withdrwal.svg')}}" alt="Instant Withdrawal" width="90" height="90">
                         <h5 class="my-3">Instant Withdrawal</h5>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="why-content">
-                        <img class="img-fluid" src="img/customer.svg" alt="24×7 Customer Support" width="90" height="90">
+                        <img class="img-fluid" src="{{asset('img/customer.svg')}}" alt="24×7 Customer Support" width="90" height="90">
                         <h5 class="my-3">24×7 Customer Support</h5>
                     </div>
 
                 </div>
                 <div class="col-md-3">
                     <div class="why-content">
-                        <img class="img-fluid" src="img/secure.svg" alt="100% Legal &amp; Secure" width="90" height="90">
+                        <img class="img-fluid" src="{{asset('img/secure.svg')}}" alt="100% Legal &amp; Secure" width="90" height="90">
                         <h5 class="my-3">100% Legal &amp; Secure</h5>
                     </div>
 
                 </div>
                 <div class="col-md-3">
                     <div class="why-content">
-                        <img class="img-fluid" src="img/coins.svg" alt="Low Commission" width="90" height="90">
+                        <img class="img-fluid" src="{{asset('img/coins.svg')}}" alt="Low Commission" width="90" height="90">
                         <h5 class="my-3">Low Commission</h5>
                     </div>
 
