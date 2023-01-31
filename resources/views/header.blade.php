@@ -4,7 +4,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="{{url('/')}}">
-                        <img src="img/red-logo.png" alt="#" class="img-fluid">
+                        <img src="{{asset('img/red-logo.png')}}" alt="#" class="img-fluid">
                     </a>
                     <a href="{{url('apk-download')}}" class="btn downloadbtn d-xl-none d-lg-none ">Download APP</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
     </header>
     <div class="mobilefooterfixed d-lg-none d-xl-none d-md-none moblie_footer">
         <h6>Get free <strong>Signup Bonus</strong></h6>
-        <a href={{url('apk-download')}} class="downloadbtn"><img src="img/downloadbutton.png" alt=""></a>
+        <a href={{url('apk-download')}} class="downloadbtn"><img src="{{asset('img/downloadbutton.png')}}" alt=""></a>
     </div>
     @if(session()->has('message'))
     <div class="" id="alert" style="z-index: 10000 !important;margin-top: 130px;text-align: center;">

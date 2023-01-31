@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-xl-3 col-md-6 col-lg-6">
                 <div class="footer-logo">
-                    <img src="img/logo.png" alt="#" class="img-fluid">
+                    <img src="{{asset('img/logo.png')}}" alt="#" class="img-fluid">
                 </div>
                 <ul class="contact_ul">
                     <li><a href="mailto:helpdesk@fantasybattle.in"><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@
                         <h4>Payment Partners</h4>
                     </div>
                     <div class="payment">
-                        <img src="img/payment_partner.png" alt="#" class="img-fluid">
+                        <img src="{{asset('img/payment_partner.png')}}" alt="#" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -113,16 +113,16 @@
                     <div class="ft-right-bar">
                         <ul class="social_ul">
                             <li>
-                                <a href="#"><img src="img/fb.png" target="_blank" class="img-fluid" alt=""></a>
+                                <a href="#"><img src="{{asset('img/fb.png" target="_blank" class="img-fluid" alt=""></a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/fantasybattlein" target="_blank"><img src="img/tw.png" class="img-fluid" alt=""></a>
+                                <a href="https://twitter.com/fantasybattlein" target="_blank"><img src="{{asset('img/tw.png" class="img-fluid" alt=""></a>
                             </li>
                             <li>
-                                <a href="https://instagram.com/fantasybattle" target="_blank"><img src="img/ins.png" class="img-fluid" alt=""></a>
+                                <a href="https://instagram.com/fantasybattle" target="_blank"><img src="{{asset('img/ins.png" class="img-fluid" alt=""></a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/@FantasyBattle" target="_blank"><img src="img/yt.png" class="img-fluid" alt=""></a>
+                                <a href="https://www.youtube.com/@FantasyBattle" target="_blank"><img src="{{asset('img/yt.png" class="img-fluid" alt=""></a>
                             </li>
                         </ul>
                     </div>
